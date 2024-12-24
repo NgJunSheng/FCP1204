@@ -1,0 +1,256 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #221811; /*font color declaration*/
+    font-family: Verdana,Arial, sans-serif;
+}
+
+.promote {
+    background-image: url(images/promotion.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #221811; /*font color declaration*/
+    font-family: Verdana,Arial, sans-serif;    
+}
+
+header h1 {
+    padding-left: 30%;
+    height: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header {
+    background-image: url(images/BANNER.png); 
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+ul {
+    list-style-type: square;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    border-top: thin solid #221811;
+    border-bottom: thin solid #221811;
+    padding: 1em;
+    background-color: #D2B48C;
+}
+
+main {
+    padding-left: 10%;
+    padding-top: 2em;
+    padding-right: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+video {
+    padding-left: 6%;
+}
+
+.product img {
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+}
+
+.list ul {
+    list-style-type: none;
+    text-indent: 2em;
+}
+
+.list {
+    text-indent: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.list h3 {
+    color: red;
+}
+
+.contactusline {
+    border-bottom: thin solid black;
+    padding: 1px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contactusfloatinfo {
+    display: flex;
+    font-size: 24px;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.contactusfloatdd dd {
+    font-size: 20px;
+    padding-left: 1.2%;
+    padding-bottom: 1%;
+}
+
+.contactusfloatdd a {
+    text-decoration: none;
+}
+
+.promoinfo {
+    text-align: center;
+    background-color: aqua;
+    border: black solid 2px;
+}
+
+.contactus dt {
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+.contactus h2 {
+    text-align: center;
+}
+
+.contactus {
+    background-color: rgb(188, 220, 231);
+    margin-top: 7%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: black solid 2px;
+}
+
+.pr ul{
+    list-style-type: none;
+}
+
+.pr li{
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.pr a img{
+    border: blanchedalmond solid 3px;
+}
+
+.prword1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40.5em;
+    font-size: 24px;
+    padding-left: 94px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.prword2 {
+    display: flex;
+    justify-content: space-between;
+    width: 41.4em;
+    font-size: 24px;
+    padding-left: 86px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+dd h2 {
+    color: red;
+}
+
+.pro dl {
+    background-color: pink;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: #221811 solid 2px;
+}
+
+.pro dt {
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.mainpagepromo li {
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border: solid 2px black;
+}
+
+.mainpagepromo ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.mainpagepromo p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.mainpagepromo img {
+    width: 300px;
+    height: 250px;
+}
+
+.mainpagepromo a {
+    text-decoration: none;
+    color: white;
+}
+
+.color1 {
+    background-color: greenyellow;
+}
+
+.color2 {
+    background-color: yellow;
+}
+
+.color3 {
+    background-color: red;
+}
